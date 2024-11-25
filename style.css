@@ -600,6 +600,9 @@ header {
     .container-global {
         max-width: 475px;
     }
+    .logo {
+        width: 150px;
+    }
     .carousel-caption h1 {
         font-size: 3.8rem; 
     }
@@ -611,15 +614,85 @@ header {
 
 @media (max-width: 475px) {
     .container-global {
-        max-width: 180px;
+        max-width: 350px;
+    }
+    .logo {
+        width: 100px;
+    }
+    .about-noni h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .about-noni p {
+        font-size: 14px;
+    }
+    .products-info h2 {
+        font-size: 28px;
+    }
+    .products-info {
+        font-size: 14px;
+    }
+    .carousel-container {
+        height: auto;
+        max-width: 100%; 
+        border: 20px solid white;
+    }
+    .product-image {
+        flex: 0 0 50%;
+        height: 180px;
+    }
+    .product-image img {
+        max-width: 80%; /* Asigură dimensiuni mai potrivite */
+    }
+    .arrow {
+        font-size: 50px; /* Micșorează dimensiunea săgeților */
+        width: 32px; /* Ajustează lățimea */
+        height: 32px; /* Ajustează înălțimea */
+    }
+    .left-arrow {
+        left: -20px; /* Ajustează poziția pentru ecrane mici */
+    }
+    .right-arrow {
+        right: -20px; /* Ajustează poziția pentru ecrane mici */
+    }
+    .product-text {
+        font-size: 14px; /* Reduce dimensiunea textului */
+        margin-top: 10px; /* Ajustează spațierea */
     }
     .carousel-caption h1 {
         font-size: 3.5rem; 
     }
     .card {
-        padding: 15px; /* Reduce paddingul pe ecrane foarte mici */
+        padding: 15px; 
     }
     .card h4 {
         margin-bottom: 30px;
     }
+    .contact-image-container img {
+        width: 400px;
+    }
+    .contact-text h2 {
+        font-size: 28px;
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+    }
+    .contact-text p {
+        font-size: 14px; 
+        margin-bottom: 0;
+    }
+    .contact-text ul li i {
+        font-size: 20px; 
+    }
+    .contact-text img {
+        width: 250px;
+        margin-bottom: 20px;
+    }
 }
+
+
+    
+  
+    
+  
+   
+  

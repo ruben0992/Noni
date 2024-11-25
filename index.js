@@ -2,14 +2,6 @@ window.onload = function() {
     window.scrollTo(0, 0);
 };
 
-document.querySelector('.btn.dropdown-toggle').addEventListener('mouseenter', function () {
-    this.click();
-});
-
-document.querySelector('.btn-group').addEventListener('mouseleave', function () {
-    document.querySelector('.btn.dropdown-toggle').click();
-});
-
 const leftArrow = document.getElementById('left-btn');
 const rightArrow = document.getElementById('right-btn');
 const carousel = document.getElementById('carousel-products');
