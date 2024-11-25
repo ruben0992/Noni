@@ -26,7 +26,6 @@ header {
     width: 200px; 
     height: auto;
 }
-
 .navbar-nav {
     flex-grow: 1; 
     justify-content: center; 
@@ -260,7 +259,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap; 
-    max-width: 1000px;
+    max-width: 100%;
     margin-top: 50px;
 }
 
@@ -286,7 +285,8 @@ header {
 }
 
 .product-image-container img {
-    height: 80vh; 
+    max-width: 90%;
+    height: auto; 
 }
 
 .product-title {
@@ -507,6 +507,10 @@ header {
     .about-noni img {
         height: 700px;
     }
+    .product-image-container img {
+        width: 90%;
+        height: 500px; 
+    }
     .carousel-cards {
         flex-wrap: nowrap; 
     }
@@ -523,9 +527,6 @@ header {
         display: flex;
         flex-direction: column;
     }
-    .image-container {
-        margin: 0;
-    }
     .about-noni img {
         height: 500px;
     }
@@ -539,6 +540,10 @@ header {
         font-weight: 400;
         text-align: center;
         margin: 0;
+    }
+    .product-image-container img {
+        width: 100%;
+        height: 480px; 
     }
     .carousel-cards {
         flex-wrap: wrap; 
@@ -616,15 +621,22 @@ header {
     .container-global {
         max-width: 350px;
     }
+    header {
+        margin: 0;
+    }
+    .navbar-nav .nav-item {
+        padding: 0;
+        margin-left: 10px;
+    }
     .logo {
         width: 100px;
     }
     .about-noni h2 {
         font-size: 28px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .about-noni p {
-        font-size: 14px;
+        font-size: 18px;
     }
     .products-info h2 {
         font-size: 28px;
