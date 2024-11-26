@@ -509,7 +509,7 @@ header {
     }
     .product-image-container img {
         width: 90%;
-        height: 500px; 
+        height: 400px; 
     }
     .carousel-cards {
         flex-wrap: nowrap; 
@@ -519,6 +519,10 @@ header {
 @media (max-width: 1024px) {
     .container-global {
         max-width: 768px;
+    }
+    .navbar-nav .nav-item {
+        padding: 0;
+        margin-left: 10px;
     }
     .carousel-caption h1 {
         font-size: 5.5rem; 
@@ -543,7 +547,7 @@ header {
     }
     .product-image-container img {
         width: 100%;
-        height: 480px; 
+        height: 340px; 
     }
     .carousel-cards {
         flex-wrap: wrap; 
@@ -577,6 +581,14 @@ header {
     .container-global {
         max-width: 648px;
     }
+    .navbar-nav .nav-item {
+        padding: 0;
+        margin-left: 10px;
+    }
+    .product-image-container img {
+        width: 100%;
+        height: 350px; 
+    }
     .carousel-caption h1 {
         font-size: 4.5rem; 
     }
@@ -599,11 +611,38 @@ header {
         flex-direction: column;
         justify-content: center;
     }
+    .card4 {
+        background: white;
+    }
+    
+    .card4 h4{
+        color: black;
+    }
+    
+    .card4 p{
+        color: black;
+    }
+    
+    .card3 {
+        background-image: linear-gradient(140deg,#0e3804,#7ad27e);
+    }
+    
+    .card3 h4{
+        color: white;
+    }
+    
+    .card3 p{
+        color: white;
+    }
 }
 
 @media (max-width: 648px) {
     .container-global {
         max-width: 475px;
+    }
+    .navbar-nav .nav-item {
+        padding: 0;
+        margin-left: 10px;
     }
     .logo {
         width: 150px;
@@ -634,6 +673,10 @@ header {
     .about-noni h2 {
         font-size: 28px;
         margin-bottom: 20px;
+    }
+    .product-image-container img {
+        width: 100%;
+        height: 220px; 
     }
     .about-noni p {
         font-size: 18px;
