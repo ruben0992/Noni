@@ -524,6 +524,22 @@ header {
         padding: 0;
         margin-left: 10px;
     }
+    .about-noni {
+        padding: 0;
+    }
+    .about-text-container {
+        padding: 40px;
+    }
+    .image-container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .image-container img {
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
     .carousel-caption h1 {
         font-size: 5.5rem; 
     }
@@ -584,6 +600,13 @@ header {
     .navbar-nav .nav-item {
         padding: 0;
         margin-left: 10px;
+    }
+    .image-container {
+        margin: 0;
+        width: 100%;
+    }
+    .image-container img {
+        width: 100%;
     }
     .product-image-container img {
         width: 100%;
@@ -650,6 +673,11 @@ header {
     .carousel-caption h1 {
         font-size: 3.8rem; 
     }
+    .about-noni p {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 20px;
+    }
     .contact-container {
         display: flex;
         flex-direction: column;
@@ -679,7 +707,9 @@ header {
         height: 220px; 
     }
     .about-noni p {
-        font-size: 18px;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 14px;
     }
     .products-info h2 {
         font-size: 28px;
