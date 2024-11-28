@@ -57,21 +57,21 @@
                 </div>
             </div>
             <div class="contact-form">
-                <form action="#" method="post">
+                <form action="send-email.php" method="POST">
                     <div class="form-group">
-                        <input type="text" placeholder="Nombre" required>
+                        <input type="text" name="Nombre" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" placeholder="Apellidos" required>
+                        <input type="text" name="Apellidos" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Email" required>
+                        <input type="email" name="Email" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" placeholder="Teléfono" required>
+                        <input type="tel" name="Teléfono" required>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                        <textarea name="Tu mensaje" rows="5" required></textarea>
                     </div>
                     <button type="submit">Enviar</button>
                 </form>
